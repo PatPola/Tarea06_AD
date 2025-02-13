@@ -1,0 +1,37 @@
+# Archivos de configuración de IDE
+.idea/
+.settings/
+.vscode/
+*.iml
+
+# Archivos de construcción
+/target/
+/bin/
+/build/
+
+# Archivos de configuración de Maven
+*.log
+*.tmp
+
+# Archivos de configuración de IntelliJ IDEA
+*.ipr
+*.iws
+
+# Archivos de configuración de Eclipse
+.project
+.classpath
+
+# Archivos de persistencia de base de datos y cachés
+*.db
+*.sqlite
+
+# Archivos de dependencias y compilación en Maven y Gradle
+/.mvn/
+*.jar
+*.war
+*.ear
+*.class
+
+# Archivos de caché de OS
+.DS_Store
+Thumbs.db
