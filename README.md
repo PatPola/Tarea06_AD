@@ -7,21 +7,33 @@ Este proyecto consiste en una aplicación Java que interactúa con MongoDB para 
 
 ## Enunciado
 Mediante la consola o mediante CompassDB crear una base de datos llamada RedSocial con una colección llamada mensajes e insertar los siguientes documentos en la colección mensajes: 
-texto: A ver si hoy sale el sol 
-numero_megustas: 5 
-usuario:  
-       email: pepe@gmail.com 
-       rutaFoto: 34deg4&d.jpg 
-texto: Parece que va a estar nublado todo el día 
-numero_megustas: 0 
-usuario:  
-     email: dolores@gmail.com 
-     rutaFoto: 45345oij34.jpg 
-texto: Pues menos mal que estamos en verano 
-numero_megustas: 57 
-usuario: 
-       email: pepe@gmail.com 
-       rutaFoto: 34deg4&d.jpg 
+```json
+[
+    {
+        "texto": "A ver si hoy sale el sol",
+        "numero_megustas": 5,
+        "usuario": {
+            "email": "pepe@gmail.com",
+            "rutaFoto": "34deg4&d.jpg"
+        }
+    },
+    {
+        "texto": "Parece que va a estar nublado todo el día",
+        "numero_megustas": 0,
+        "usuario": {
+            "email": "dolores@gmail.com",
+            "rutaFoto": "45345oij34.jpg"
+        }
+    },
+    {
+        "texto": "Pues menos mal que estamos en verano",
+        "numero_megustas": 57,
+        "usuario": {
+            "email": "pepe@gmail.com",
+            "rutaFoto": "34deg4&d.jpg"
+        }
+    }
+] ´´´
        
 Crear una aplicación java con las siguientes opciones: 
 1. Mostrar todos los mensajes (se mostrarán todos los datos de los mensajes y sus usuarios) 
