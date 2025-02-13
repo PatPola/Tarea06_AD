@@ -33,7 +33,8 @@ Mediante la consola o mediante CompassDB crear una base de datos llamada RedSoci
             "rutaFoto": "34deg4&d.jpg"
         }
     }
-] ´´´
+]
+```
        
 Crear una aplicación java con las siguientes opciones: 
 1. Mostrar todos los mensajes (se mostrarán todos los datos de los mensajes y sus usuarios) 
